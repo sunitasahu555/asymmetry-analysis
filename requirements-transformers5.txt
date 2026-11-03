@@ -1,0 +1,18 @@
+# Gemma 4 environment (Gemma 4 needs transformers >= 5.10): notebook 33 on the CPU, notebook 34 on the GPU.
+# The reported results used Python 3.12, torch 2.14.1 (CPU) and these versions.
+#   pip install torch==2.14.1 torchvision --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+torchvision
+transformers==5.18.0
+tokenizers==0.23.2
+huggingface_hub==1.33.0
+safetensors==0.8.0
+sentencepiece>=0.2
+protobuf>=5.0
+pillow>=10.0
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+nbclient>=0.10
+nbformat>=5.10
+ipykernel>=6.29
